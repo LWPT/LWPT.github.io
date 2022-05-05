@@ -1998,7 +1998,7 @@ pre .javascript .function {
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
-  background: url("/images/bg.svg") center center/cover no-repeat;
+  background: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp08%2F39042223172520.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1654352709&t=4ef3456ddcfcbda2f5fb4dba81c35bfd") center center/cover no-repeat;
   background-position-y: 70px;
 }
 @media (max-width: 780px) {
