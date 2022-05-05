@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="keywords" content="Hexo Theme Keep">
     <meta name="description" content="Hexo Theme Keep">
-    <meta name="author" content="Keep Team">
+    <meta name="author" content="rOche">
     
     <title>
         
             Archive |
         
-        Keep Theme
+        rOche
     </title>
     
 <link rel="stylesheet" href="/css/style.css">
@@ -23,7 +23,7 @@
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"lwpt.github.io","root":"/","language":"zh-CH"};
-    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"https://img1.baidu.com/it/u=620786628,947946224&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500","favicon":"https://img1.baidu.com/it/u=620786628,947946224&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":"ture","background_img":"https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp08%2F39042223172520.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1654352709&t=4ef3456ddcfcbda2f5fb4dba81c35bfd","description":"Keep writing and Keep loving."},"scroll":{"progress_bar":{"enable":"ture"},"percent":{"enable":"ture"}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"https://img1.baidu.com/it/u=620786628,947946224&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500","favicon":"https://img1.baidu.com/it/u=620786628,947946224&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"background_img":"https://img0.baidu.com/it/u=1546227440,2897989905&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500","description":"Keep writing and Keep loving."},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
   </script>
 <meta name="generator" content="Hexo 6.1.0"></head>
@@ -31,6 +31,8 @@
 
 <body>
 <div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
     
 
     
@@ -50,7 +52,7 @@
         <div class="left">
             
             <a class="logo-title" href="/">
-                Keep Theme
+                rOche
             </a>
         </div>
 
@@ -71,6 +73,22 @@
                                href="/archives"
                             >
                                 ARCHIVES
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >
+                                LINKS
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                ABOUT
                             </a>
                         </li>
                     
@@ -97,6 +115,16 @@
                 <li class="drawer-menu-item flex-center">
                     <a class="active"
                        href="/archives">ARCHIVES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links">LINKS</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">ABOUT</a>
                 </li>
             
         </ul>
@@ -155,7 +183,7 @@
               <span>2020</span>
               -
             
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Keep Team</a>
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">rOche</a>
         </div>
         
         <div class="theme-info info-item">
@@ -194,10 +222,6 @@
         
 
         
-            <li class="tools-item tool-scroll-to-top flex-center">
-                <i class="fas fa-arrow-up"></i>
-            </li>
-        
 
         <li class="tools-item tool-scroll-to-bottom flex-center">
             <i class="fas fa-arrow-down"></i>
@@ -208,6 +232,11 @@
         <li class="tools-item tool-toggle-show flex-center">
             <i class="fas fa-cog fa-spin"></i>
         </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
         
     </ul>
 </div>
@@ -240,6 +269,10 @@
 
 
 
+
+
+    
+<script src="/js/code-copy.js"></script>
 
 
 
