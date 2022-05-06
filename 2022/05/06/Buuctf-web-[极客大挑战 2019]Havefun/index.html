@@ -9,8 +9,6 @@
     
     <title>
         
-            初次见面 |
-        
         rOche
     </title>
     
@@ -155,7 +153,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">初次见面</span>
+            <span class="title-hover-animation"></span>
         </div>
 
         
@@ -174,8 +172,8 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fas fa-edit"></i>&nbsp;
-        <span class="pc">2022-04-09 17:21:07</span>
-        <span class="mobile">2022-04-09 17:21</span>
+        <span class="pc">2022-05-06 10:12:16</span>
+        <span class="mobile">2022-05-06 10:12</span>
     </span>
     
     
@@ -196,8 +194,15 @@
         
 
         <div class="article-content markdown-body">
-            <p>欢迎来到我的博客，谢谢您的支持。如果您有什么好的建议，请给我发QQEmail反馈。</p>
-<p><a class="link"   href="mailto:&#51;&#x35;&#51;&#54;&#x37;&#54;&#52;&#x34;&#x31;&#54;&#x40;&#x71;&#x71;&#x2e;&#99;&#x6f;&#x6d;" >&#51;&#x35;&#51;&#54;&#x37;&#54;&#52;&#x34;&#x31;&#54;&#x40;&#x71;&#x71;&#x2e;&#99;&#x6f;&#x6d;<i class="fas fa-external-link-alt"></i></a></p>
+            <p>打开题目什么都没有发现：</p>
+<p>![2022-05-05 (Buuctf-web-[极客大挑战 2019]Havefun.assets&#x2F;2022-05-05 (16).png)](C:&#x2F;Users&#x2F;35367&#x2F;Pictures&#x2F;Saved Pictures&#x2F;2022-05-05 (16).png)</p>
+<p>我习惯性先看源码发现有一个注释：</p>
+<p>![2022-05-05 (Buuctf-web-[极客大挑战 2019]Havefun.assets&#x2F;2022-05-05 (17).png)](C:&#x2F;Users&#x2F;35367&#x2F;Pictures&#x2F;Saved Pictures&#x2F;2022-05-05 (17).png)</p>
+<p>发现是php，进行代码审计</p>
+<p>首先它通过get的方式传入一个参数cat如果传入参数的cat&#x3D;&#x3D;dog的话，就会打印下面的内容</p>
+<p>因此我们构造payload：?cat&#x3D;dog</p>
+<p>![2022-05-05 (Buuctf-web-[极客大挑战 2019]Havefun.assets&#x2F;2022-05-05 (18).png)](C:&#x2F;Users&#x2F;35367&#x2F;Pictures&#x2F;Saved Pictures&#x2F;2022-05-05 (18).png)</p>
+<p>得到flag</p>
 
         </div>
 
@@ -205,11 +210,11 @@
             <div class="post-copyright-info">
                 <div class="article-copyright-info-container">
     <ul>
-        <li>Post title：初次见面</li>
+        <li>Post title：</li>
         <li>Post author：rOche</li>
-        <li>Create time：2022-04-09 17:21:07</li>
+        <li>Create time：2022-05-06 10:12:16</li>
         <li>
-            Post link：https://keep.xpoet.cn/2022/04/09/初次见面/
+            Post link：https://keep.xpoet.cn/2022/05/06/Buuctf-web-[极客大挑战 2019]Havefun/
         </li>
         <li>
             Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
@@ -225,21 +230,21 @@
         
             <div class="article-nav">
                 
-                    <div class="article-prev">
-                        <a class="prev"
-                           rel="prev"
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
                            href="/2022/05/05/Buuctf-web-%5B%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98%202019%5DEasySQL/"
                         >
-                            <span class="left arrow-icon flex-center">
-                              <i class="fas fa-chevron-left"></i>
-                            </span>
                             <span class="title flex-center">
                                 <span class="post-nav-title-item"></span>
-                                <span class="post-nav-item">Prev posts</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
                             </span>
                         </a>
                     </div>
-                
                 
             </div>
         
