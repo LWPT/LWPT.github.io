@@ -197,13 +197,28 @@
 
         <div class="article-content markdown-body">
             <p>打开题目什么都没有发现：</p>
-<p>![2022-05-05 (Buuctf-web-[极客大挑战 2019]Havefun.assets&#x2F;2022-05-05 (16).png)](C:&#x2F;Users&#x2F;35367&#x2F;Pictures&#x2F;Saved Pictures&#x2F;2022-05-05 (16).png)</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="//tvax1.sinaimg.cn/large/006QuoK3gy1h1yhp2re41j31hc0odabb.jpg"
+                      alt="2022-05-05 (16)"
+                ></p>
 <p>我习惯性先看源码发现有一个注释：</p>
-<p>![2022-05-05 (Buuctf-web-[极客大挑战 2019]Havefun.assets&#x2F;2022-05-05 (17).png)](C:&#x2F;Users&#x2F;35367&#x2F;Pictures&#x2F;Saved Pictures&#x2F;2022-05-05 (17).png)</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="//tvax1.sinaimg.cn/large/006QuoK3gy1h1yhqjh0j1j31hc0p2wor.jpg"
+                      alt="2022-05-05 (17)"
+                ></p>
 <p>发现是php，进行代码审计</p>
 <p>首先它通过get的方式传入一个参数cat如果传入参数的cat&#x3D;&#x3D;dog的话，就会打印下面的内容</p>
 <p>因此我们构造payload：?cat&#x3D;dog</p>
-<p>![2022-05-05 (Buuctf-web-[极客大挑战 2019]Havefun.assets&#x2F;2022-05-05 (18).png)](C:&#x2F;Users&#x2F;35367&#x2F;Pictures&#x2F;Saved Pictures&#x2F;2022-05-05 (18).png)</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="//tvax4.sinaimg.cn/large/006QuoK3gy1h1yhr2lf5fj31hc0oewjz.jpg"
+                      alt="2022-05-05 (18)"
+                ></p>
 <p>得到flag</p>
 
         </div>
